@@ -36,7 +36,7 @@ function eqArrays(arr1, arr2){
   };
 
 const word = [1, 2, 3];
- assertArraysEqual(without(word, [2]), [2, 3]);
+ assertArraysEqual(without(word, [2]), [1, 3]);
  assertArraysEqual(word, [1, 2, 3]);
 const words = ["hello", "world", "lighthouse"];
 without(words, ["lighthouse"]); // no need to capture return value for this test case

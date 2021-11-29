@@ -15,7 +15,7 @@ const assertEqual = function(actual, expected) {
         return true;
       }
       else {
-        return false
+        return false;
       }
     }
   }
