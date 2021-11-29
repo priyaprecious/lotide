@@ -1,0 +1,29 @@
+{
+  "name": "@priyaprecious/lotide",
+  "version": "1.0.0",
+  "description": "lotide project lighthouse labs",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "lotide": "^1.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyaprecious/lotide.git"
+  },
+  "author": "priyanka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyaprecious/lotide/issues"
+  },
+  "homepage": "https://github.com/priyaprecious/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}

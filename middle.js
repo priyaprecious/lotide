@@ -32,13 +32,15 @@ const assertArraysEqual = function(actual, expected) {
    return [arr[index]];
     }
   };
+
+  module.exports = middle;
   
   //Test//
-  assertArraysEqual(middle([1,2,3]),[2]);
-  assertArraysEqual(middle([1,2,3,4]), [2,3]);
-  assertArraysEqual(middle([]),[]);
-  assertArraysEqual(middle([1,2,3,4]),[2]); //false
-  assertArraysEqual(middle([1,2,3,4]),[2,3]);
-  assertArraysEqual(middle([1]),[]);
-  assertArraysEqual(middle([1,2]),[]);
-  assertArraysEqual(middle([1,2]),[1]); //false
+  // assertArraysEqual(middle([1,2,3]),[2]);
+  // assertArraysEqual(middle([1,2,3,4]), [2,3]);
+  // assertArraysEqual(middle([]),[]);
+  // assertArraysEqual(middle([1,2,3,4]),[2]); //false
+  // assertArraysEqual(middle([1,2,3,4]),[2,3]);
+  // assertArraysEqual(middle([1]),[]);
+  // assertArraysEqual(middle([1,2]),[]);
+  // assertArraysEqual(middle([1,2]),[1]); //false

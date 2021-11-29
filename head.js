@@ -8,8 +8,10 @@ const assertEqual = function(actual, expected) {
   const head = function(input_value) {
     head_value = input_value[0];
     //console.log(head_value)
-    return head_value
+    return head_value;
   };
 
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+// assertEqual(head([5,6,7]), 5);
+// assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+
+module.exports = head;
