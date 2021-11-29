@@ -13,7 +13,7 @@ const takeUntil = function(array, callback) {
     return part;
   };
 
-  // Assertion functions
+  // Assertion functions o
   const eqArrays = (arr1, arr2) => {
     let match = true;
 
