@@ -1,5 +1,5 @@
 {
-  "name": "@priyaprecious/lotide",
+  "name": "@priyankadonthamsetty/lotide",
   "version": "1.0.0",
   "description": "lotide project lighthouse labs",
   "main": "assertArraysEqual.js",
@@ -16,7 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/priyaprecious/lotide.git"
   },
-  "author": "priyanka",
+  "author": "priyankadonthamsetty",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/priyaprecious/lotide/issues"
